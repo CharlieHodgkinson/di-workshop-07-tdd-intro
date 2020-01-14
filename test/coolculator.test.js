@@ -35,4 +35,9 @@ describe('Coolculator', function() {
     result = mm.lowest(6, 4)
     expect(result).to.equal(4)
   })
+
+  it('should double', function() {
+    result = mm.double(6)
+    expect(result).to.equal(12)
+  })
 })
