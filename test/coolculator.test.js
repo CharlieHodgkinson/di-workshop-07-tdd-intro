@@ -16,9 +16,8 @@ describe('Coolculator', function() {
     expect(result).to.equal(6)
   })
 
-  // Uncomment this 👇
-  // it('should subtract', function() {
-  //   result = mm.subtract(3, 2)
-  //   expect(result).to.equal(1)
-  // })
+  it('should subtract', function() {
+    result = mm.subtract(3, 2)
+    expect(result).to.equal(1)
+  })
 })
