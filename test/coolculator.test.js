@@ -25,4 +25,14 @@ describe('Coolculator', function() {
     result = mm.divide(6, 2)
     expect(result).to.equal(3)
   })
+
+  it('should give highest', function() {
+    result = mm.highest(6, 4)
+    expect(result).to.equal(6)
+  })
+
+  it('should give lowest', function() {
+    result = mm.lowest(6, 4)
+    expect(result).to.equal(4)
+  })
 })
